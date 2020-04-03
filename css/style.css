@@ -1,0 +1,966 @@
+/* COLORS */
+/* FONTS */
+/* BREAKPOINTS */
+/* BEM */
+/* FLEXBOX */
+/* @MEDIA */
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+body {
+  margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 32, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 45, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 56, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 68, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 77, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 87, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 97, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 108, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 117, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 125, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 129, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 140, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 152, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 168, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 178, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 187, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 198, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 210, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 221, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 232, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 245, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 253, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 262, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 272, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 282, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 291, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 300, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 312, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 320, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 331, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 339, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/normalize.css */
+[hidden] {
+  display: none;
+}
+
+/* line 1, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/_base.scss */
+body {
+  color: #3C424E;
+  font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* line 7, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/_base.scss */
+a {
+  color: #3C424E;
+  line-height: normal;
+  text-decoration: none;
+}
+
+/* line 13, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/_base.scss */
+h1 {
+  font-size: 30px;
+}
+
+/* line 17, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/_base.scss */
+h2 {
+  font-size: 24px;
+}
+
+/* line 21, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/_base.scss */
+h3 {
+  font-size: 18px;
+}
+
+/* line 25, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/_base.scss */
+h4 {
+  font-size: 16px;
+}
+
+/* line 29, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/_base.scss */
+p {
+  font-size: 14px;
+}
+
+/* line 33, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/_base.scss */
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+/* line 37, /Users/leonardotapia/Sites/houston_budget_solutions/scss/base/_base.scss */
+textarea {
+  resize: none;
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.hero__bttn {
+  background-color: #191f39;
+  border: none;
+  border-radius: 5px;
+  padding: .75rem 1rem;
+}
+
+@media (min-width: 660px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .contact__form {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .contact__form {
+    width: 600px;
+  }
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.contact__form__input {
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.contact__form__textarea {
+  height: 175px;
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.contact__form__bttn {
+  background-color: #191f39;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  padding: .75rem 0;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  /* line 6, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #191f39;
+  }
+}
+
+/* line 13, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+.nav {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas: 'container' 'heading';
+  background-color: #191f39;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+@media (min-width: 1024px) {
+  /* line 13, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .nav {
+    grid-template-columns: auto;
+    grid-template-areas: 'heading container' 'heading container';
+    position: static;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 13, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .nav {
+    width: 1200px;
+  }
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.nav__heading {
+  grid-area: heading;
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.nav__container {
+  grid-area: container;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #232943;
+  padding: .75rem 1rem;
+}
+
+@media (min-width: 1024px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .nav__container {
+    background-color: #191f39;
+    justify-content: flex-end;
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 57, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4rem 0 0;
+  }
+}
+
+/* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.hero__container--invisible {
+  height: 144px;
+}
+
+@media (min-width: 660px) {
+  /* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__container--invisible {
+    height: 110px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__container--invisible {
+    display: none;
+  }
+}
+
+/* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.hero__container--visible {
+  background-image: url(../img/hero-img-base.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 416px;
+  padding: 0 1rem;
+}
+
+@media (min-width: 321px) {
+  /* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__container--visible {
+    background-image: url(../img/hero-img-sm.jpg);
+    height: 450px;
+  }
+}
+
+@media (min-width: 481px) {
+  /* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__container--visible {
+    background-image: url(../img/hero-img-lg.jpg);
+    background-position: bottom;
+  }
+}
+
+@media (min-width: 660px) {
+  /* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__container--visible {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../img/hero-img-x-lg.jpg);
+    background-position: top;
+    height: 350px;
+    padding: 0 4rem;
+  }
+}
+
+@media (min-width: 769px) {
+  /* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__container--visible {
+    background-image: url(../img/hero-img-xx-lg.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__container--visible {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__container--visible {
+    box-sizing: border-box;
+    width: 1072px;
+  }
+}
+
+/* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.hero__container--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 660px) {
+  /* line 10, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__container--content {
+    align-items: flex-start;
+  }
+}
+
+/* line 135, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+.services {
+  padding: 3rem 1rem;
+}
+
+@media (min-width: 425px) {
+  /* line 135, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .services {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (min-width: 481px) {
+  /* line 135, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .services {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 660px) {
+  /* line 135, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 135, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5rem 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 135, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .services {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 5rem 0;
+    width: 1072px;
+  }
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.services__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f6ff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+}
+
+/* line 172, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+.services__card:nth-last-child(n+2) {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 660px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .services__card {
+    padding: 2rem;
+    width: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .services__card {
+    width: 30%;
+  }
+  /* line 184, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .services__card:nth-last-child(n+2) {
+    margin: 0;
+  }
+}
+
+/* line 191, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f6ff;
+  padding: 3rem 1rem;
+}
+
+@media (min-width: 425px) {
+  /* line 191, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .contact {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (min-width: 481px) {
+  /* line 191, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .contact {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 191, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .contact {
+    padding: 5rem 3rem;
+  }
+}
+
+/* line 210, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+.footer {
+  background-color: #191f39;
+  padding: 2rem 1rem 1rem;
+}
+
+@media (min-width: 1024px) {
+  /* line 210, /Users/leonardotapia/Sites/houston_budget_solutions/scss/components/_grid.scss */
+  .footer {
+    padding: 4rem 0 2rem;
+  }
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.nav__container__icon {
+  height: 20px;
+  width: 20px;
+  margin-right: .5rem;
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.services__card__icon {
+  height: 75px;
+  width: 75px;
+  margin-bottom: 1rem;
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.nav__heading {
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .nav__heading {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .nav__heading {
+    text-align: left;
+  }
+}
+
+@media (min-width: 660px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .nav__break {
+    display: none;
+  }
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.nav__container__link {
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .nav__container__link {
+    font-size: 24px;
+  }
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.hero__heading {
+  margin-bottom: 1.5rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 321px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__heading {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 481px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__heading {
+    padding-top: 1.5rem;
+  }
+}
+
+@media (min-width: 660px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__heading {
+    font-size: 36px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__heading {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 660px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__break {
+    display: none;
+  }
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.hero__text {
+  display: none;
+}
+
+@media (min-width: 660px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .hero__text {
+    display: inline;
+    margin-bottom: 1.5rem;
+    width: 50%;
+  }
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.hero__bttn__link {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.services__heading {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 660px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .services__heading {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .services__heading {
+    font-size: 24px;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.services__card__heading {
+  margin-bottom: .5rem;
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.services__card__text {
+  text-align: center;
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.contact__heading {
+  margin-bottom: .5rem;
+  text-align: center;
+}
+
+@media (min-width: 660px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .contact__heading {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .contact__heading {
+    font-size: 24px;
+  }
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.contact__text {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  width: 288px;
+}
+
+@media (min-width: 1024px) {
+  /* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+  .contact__text {
+    margin-bottom: 3rem;
+  }
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.footer__text {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* line 4, /Users/leonardotapia/Sites/houston_budget_solutions/scss/utilities/_mixins.scss */
+.footer__link {
+  color: #00b7eb;
+}
+
+/*# sourceMappingURL=../css/style.map */
